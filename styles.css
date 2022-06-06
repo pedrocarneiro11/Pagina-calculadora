@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nome{
+    display: flex;
+    height: 6.5vh;
+    width: 100%;
+    background: linear-gradient(45deg,#047449, #047449, #06a166, #06cf82);
+    background-size: 400% 400%;
+    font-family: 'Roboto Slab', serif;
+    animation: backgroundTransition 10s ease-in-out infinite;
+    color: rgb(217, 211, 211);
+    justify-content: center;
+}
+
+.fundo{
+    font-family: 'Roboto Slab', serif;
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(45deg,#047449, #047449, #06a166, #06cf82);
+    background-size: 400% 400%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    animation: backgroundTransition 10s ease-in-out infinite;
+    color: white;
+}
+.calculadora {
+    position: absolute;
+    background-color: rgba(66, 64, 64, 0.8);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    padding: 15px;
+}
+.botao {
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    background-color: rgb(207, 203, 203);
+    cursor: pointer;
+    border: none;
+    margin: 2px;
+}
+
+/*depois, o botão do símbolo "=" terá uma cor diferente */
+.botao:hover {
+    background-color: gray;
+}
+#resultado {
+    background-color: white;
+    width: 218px;
+    height: 31px;
+    color: black;
+    font-size: 26px;
+    justify-content: center;
+    align-items: center;
+    text-align: right;
+}
+
+
