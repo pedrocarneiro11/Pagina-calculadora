@@ -16,6 +16,7 @@ function calcular() {
         document.getElementById('resultado').innerHTML = eval(resultado);
         document.getElementById('resultado').style.color = 'green'; // <--
         // comando eval computa a operação 
+              
     }
     else{
         document.getElementById('resultado').innerHTML = "Nada...";
